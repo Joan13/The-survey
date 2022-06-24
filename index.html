@@ -14,15 +14,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Programmers Survey Form</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
         <div id="heading">
-            <h1 id=title>The Survey</h1>
-            <p id="description">We love to know about which technology and tools software engineers are using world
+            <div class="intro">
+            <h1 id=title><srong>The Survey</srong></h1>
+            <p id="description"><em>We love to know about which technology and tools software engineers are using world
                 wide! Each
-                and every Developers opinions are very precious to us!</p>
+                and every Developers opinions are very precious to us!</em></p>
         </div>
         <div id="main">
             <form id="survey-form">
@@ -37,15 +38,15 @@
                     <label id="number-label"><b>Age:</b></label>
                     <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
                 </div>
-                <div id="dropdown-div"><br>
+                <div id="dropdown-div">
+                    </div><br>
                     <label id="dropdown-label"><strong>Programming language you are expert at: </strong></label><br>
                     <select id="dropdown" name="code-lang" class="form">
                         <option value="C">C (Programming Language)</option>
                         <option value="Python">Python</option>
                         <option value="C#">C#</option>
                         <option value="php">PHP</option>
-                        <option value="Js">Java Script</option>
-                        <option value="Go">Go (Programming Language)</option>
+                        <option value="Js">JavaScript</option>
                         <option value="ruby">Ruby on rails</option>
                         <option value="C++">C++</option>
                         <option value="Java">Java</option>

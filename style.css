@@ -1,0 +1,54 @@
+
+    
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-section h1 {
+    margin: 0;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.intro {
+    text-align: center;
+    background-color:grey;
+}
+
+.intro p {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+}
+
+  
+  label, p {
+    color:yellowgreen;
+    padding-bottom: 5px
+  }
+  label p{
+      color:black;
+  }input,
+  input::-webkit-input-placeholder {
+      font: size 20px; ;
+      line-height: 2;
+  }input[type="text"]::placeholder {  
+                  
+    /* Firefox, Chrome, Opera */ 
+    padding-left: 10px; 
+} 
+
+  #survey-form{
+    text-align:center ;
+      background-color:blue;
+  }#dropdown-label{
+
+    text-align: center;
+    
+      background-position: 0%;
+      background-color: blue;
+    
+  }
